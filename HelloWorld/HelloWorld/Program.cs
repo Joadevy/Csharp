@@ -8,5 +8,6 @@ class Program
         Usuario user = new Usuario("Juan", "Perez", 30);
 
         user.Saludar();
+        Console.WriteLine(user.EsMayorDeEdad() ? $"{user.nombre} mayor de edad" : "Soy menor de edad");
     }
 }
